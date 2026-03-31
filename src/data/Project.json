@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Sales Dashboard",
+    "description": "Frontend dashboard for small businesses",
+    "tech": ["React", "Charts", "CSS"],
+    "live": "#",
+    "github": "#"
+  },
+  {
+    "id": 2,
+    "title": "Landing Page Builder",
+    "description": "Dynamic landing page UI",
+    "tech": ["React", "useState"],
+    "live": "#",
+    "github": "#"
+  },
+    {
+    "id": 3,
+    "title": "Landing Page Builder",
+    "description": "Dynamic landing page UI",
+    "tech": ["React", "useState"],
+    "live": "#",
+    "github": "#"
+  }
+]
