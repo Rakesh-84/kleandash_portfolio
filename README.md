@@ -1,16 +1,58 @@
-# React + Vite
+# KleanDash
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**React & Next.js dashboard development for SaaS startups and agencies.**
 
-Currently, two official plugins are available:
+I build clean, live-connected analytics dashboards that help non-technical founders 
+actually understand their business data — not just display it.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## What I Do
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Most dashboard developers start with components. I start with your data.
 
-## Expanding the ESLint configuration
+After 9 years as a Marketing Officer at Nestlé — working with Salesforce CRM, outlet 
+performance tracking, and FMCG metrics — I know what business data looks like before 
+it becomes a chart. That background is what makes KleanDash different.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Typical projects:**
+- SaaS analytics dashboards (MRR, churn, activation, retention)
+- Sales & CRM performance dashboards
+- Operations and KPI tracking dashboards
+- Custom data visualization for internal tools
+
+---
+
+## Tech Stack
+
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+
+---
+
+## Portfolio Projects
+
+| Project | Description | Live Demo |
+|---|---|---|
+| **BizDash** | Business KPI dashboard with real-time metrics | [View →](https://kleandash.com) |
+| **SalesDev** | Sales performance dashboard with AI insights | [View →](https://kleandash.com) |
+| **OmniTask** | Operations & task tracking dashboard | [View →](https://kleandash.com) |
+
+---
+
+## Work With Me
+
+If you're a SaaS founder who needs a dashboard built properly — data modeled 
+correctly, UI clean, and actually useful to your team — let's talk.
+
+**Send me your raw data. I'll show you what's possible before we agree on anything.**
+
+🌐 [kleandash.com](https://kleandash.com)  
+📧 rex@kleandash.com  
+💼 [LinkedIn](https://linkedin.com/in/rakesh-das-kleandash)
+
+---
+
+*Based in Chittagong, Bangladesh. Working with clients globally.*
