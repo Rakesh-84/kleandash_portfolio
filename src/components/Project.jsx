@@ -1,11 +1,11 @@
 import Screenshot from "../assets/Screenshot 2026-03-30 113327.png";
-
-const SaaSPreview = () => {
+import Saasscreenshot from "../assets/Screenshot 2026-04-17 194532.png"
+const SaaSPreview = ({ screenshot = Screenshot }) => {
   return (
     <div className="relative w-full h-full min-h-64 overflow-hidden rounded-lg border border-white/10 group">
       {/* The Dashboard Screenshot */}
       <img
-        src={Screenshot} // Ensure your screenshot is in the public or assets folder
+        src={screenshot} // Ensure your screenshot is in the public or assets folder
         alt="BIZDash Preview"
         className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
       />

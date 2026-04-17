@@ -1,5 +1,6 @@
 import SaaSPreview from '../components/Project';
-
+import Screenshot from "../assets/Screenshot 2026-03-30 113327.png";
+import Saasscreenshot from "../assets/Screenshot 2026-04-17 194532.png"
 export const Projects = [
   {
     id: "01",
@@ -7,21 +8,22 @@ export const Projects = [
     title: "SaaS Revenue & Growth Dashboard",
     description:
       "A unified morning dashboard for SaaS founders — MRR, churn, signups and active users in one view. Connected to Supabase.",
-    stack: "React • Recharts • Supabase",
+    stack: "React • Recharts • JSON",
     delivery: "5 days",
     link: "https://biz-dash-pi.vercel.app/",
-    preview: <SaaSPreview />,
+    preview: <SaaSPreview screenshot={Screenshot} />,
     
   },
   {
-    id: "02",
-    category: "MARKETING AGENCY",
-    title: "Client Reporting Dashboard",
+     id: "02",
+    category: "SAAS ANALYTICS",
+    title: "SaasDash — SaaS Metrics Dashboard",
     description:
-      "Replaced monthly PDF reports with a live dashboard. Agency shares a link — clients see their GA4, ad spend and conversions in real time.",
-    stack: "Google Sheets API • Recharts",
-    delivery: "7 days",
-    preview: <SaaSPreview />,
+      "A live SaaS metrics dashboard connected to Google Sheets. Founders track MRR, ARR, active customers and churn rate in one view — with revenue trends and raw metrics updating in real time.",
+    stack: "Next.js • Google Sheets API • Recharts",
+    delivery: "6 days",
+    link: "https://saasdash-t7lm.vercel.app/",
+    preview: <SaaSPreview screenshot={Saasscreenshot} />,
   },
   {
     id: "03",

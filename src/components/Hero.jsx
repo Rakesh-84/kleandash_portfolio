@@ -8,7 +8,7 @@ function Hero() {
           <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-8 ">
             Your Data <br /> Deserves a <br />
             <strong className="text-gradient-emerald">
-              cleaner <br /> dashboard
+              Cleaner <br /> Dashboard
             </strong>
           </h1>
 
