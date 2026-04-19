@@ -1,50 +1,63 @@
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #000000;
+  font-family: var(--font-body);
+  background: var(--bg);
   color: #faf9f9;
 }
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-10px); }
-  to { opacity: 1; transform: translateY(0); }
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+}
+h1 em {
+  font-style: italic;
+  color: var(--kraft);
+}
+.hero-accent {
+  color: var(--kraft);
 }
 
-.animate-fadeIn {
-  animation: fadeIn 0.3s ease-out;
+.card {
+  border: 1px solid var(--kraft-20);
+  background: var(--kraft-06);
+}
+
+.cta-btn {
+  border: 1px solid var(--kraft);
+  color: var(--kraft);
 }
 
 
-
-.urbanist {
-  font-family: "Urbanist", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+.cta-btn:hover {
+  background: var(--kraft);
+  color: #fff;
 }
-.text-gradient-emerald {
-  background: linear-gradient(90deg, #10b981, #34d399, #059669);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-}
-
-.text-gradient-emerald-animated {
-  background: linear-gradient(90deg, #10b981, #34d399, #059669, #10b981);
-  background-size: 300% 300%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-  animation: gradient 6s ease infinite;
-}
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid var(--kraft-dim);
+    color: var(--kraft);
+    font-family: 'Epilogue', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 5px 12px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    margin-top: 48px;
+    animation: fadeUp 0.7s 0.1s ease both;
   }
-  50% {
-    background-position: 50% 100%;
+ 
+  .badge-dot {
+    width: 6px; height: 6px;
+    background: var(--kraft);
+    border-radius: 50%;
+    animation: pulse 2s infinite;
   }
-  100% {
-    background-position: 50% 0%;
+ 
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50%       { opacity: 0.4; transform: scale(0.8); }
   }
-}
+
+

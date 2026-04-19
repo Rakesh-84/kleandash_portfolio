@@ -42,7 +42,7 @@ export default function Ready() {
     <section className="py-20 px-6 max-w-4xl mx-auto" id="contact">
       {/* Header Section */}
       <div className="text-center mb-12">
-        <p className="text-[10px] tracking-[0.2em] font-bold text-[#00d37e] uppercase mb-4">
+        <p className="text-[10px] tracking-[0.2em] font-bold text-[#b8895a] uppercase mb-4">
           LET'S WORK TOGETHER
         </p>
         <h2 className="text-4xl md:text-6xl font-black text-white italic leading-tight uppercase">
@@ -128,7 +128,7 @@ export default function Ready() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full bg-[#00d37e] hover:bg-[#00b36b] disabled:bg-gray-800 disabled:text-gray-500 text-black font-black py-5 rounded-2xl transition-all flex justify-center items-center gap-2 uppercase tracking-tighter"
+            className="w-full bg-[#b8895a] hover:bg-orange-200 disabled:bg-gray-800 disabled:text-gray-500 text-black font-black py-5 rounded-2xl transition-all flex justify-center items-center gap-2 uppercase tracking-tighter"
           >
             {isSubmitting ? (
               <span className="flex items-center gap-2">
@@ -147,7 +147,7 @@ export default function Ready() {
             Prefer email? Reach me directly at{" "}
             <a
               href="mailto:rex@kleandash.com"
-              className="text-[#34d399] hover:underline transition-all"
+              className="text-[#b8895a] hover:underline transition-all"
             >
               rex@kleandash.com
             </a>

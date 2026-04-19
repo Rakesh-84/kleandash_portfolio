@@ -14,7 +14,7 @@ import Work from "./pages/Work";
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-[#020617] text-white overflow-x-hidden">
+      <div className="min-h-screen bg-[#0f0c08] text-white overflow-x-hidden">
         <Navbar />
         <Routes>
           <Route

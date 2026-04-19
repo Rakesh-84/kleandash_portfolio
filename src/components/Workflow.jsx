@@ -36,7 +36,7 @@ const Workflow = () => {
     <section className="bg-[#020606] text-white py-24 px-6">
       <div className="max-w-6xl mx-auto text-center">
         {/* Header */}
-        <p className="text-[#34d399] text-[10px] font-bold tracking-[0.3em] uppercase mb-8">
+        <p className="text-[#b8895a] text-[10px] font-bold tracking-[0.3em] uppercase mb-8">
           How I Work
         </p>
         <h2 className="text-4xl md:text-6xl font-black italic uppercase leading-[1.1] tracking-tighter mb-6">
@@ -48,7 +48,7 @@ const Workflow = () => {
         </p>
 
         {/* Steps Timeline */}
-        <div className="relative flex flex-col md:flex-row justify-between items-start gap-12 md:gap-4">
+        <div className="relative flex flex-col md:flex-row justify-center items-center gap-12 md:gap-4">
           {/* Connecting Line (Desktop Only) */}
           <div className="hidden md:block absolute top-4.5 left-0 w-full h-px bg-white/10 z-0" />
 
@@ -58,8 +58,8 @@ const Workflow = () => {
               className="relative z-10 flex flex-col items-center md:items-start text-center md:text-left flex-1 group"
             >
               {/* Number Circle */}
-              <div className="w-10 h-10 rounded-full bg-[#020606] border border-white/20 flex items-center justify-center mb-6 transition-colors group-hover:border-[#34d399]">
-                <span className="text-[#34d399] text-[10px] font-bold tracking-tighter">
+              <div className="w-10 h-10 rounded-full bg-[#020606] border border-white/20 flex items-center justify-center mb-6 transition-colors group-hover:border-[#b8895a] ]">
+                <span className="text-[#b8895a] text-[10px] font-bold tracking-tighter">
                   {step.id}
                 </span>
               </div>

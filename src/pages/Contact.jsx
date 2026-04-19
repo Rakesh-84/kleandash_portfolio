@@ -6,7 +6,7 @@ export default function Contact() {
     <section className="py-20 px-6 max-w-7xl mx-auto min-h-screen">
       {/* Header */}
       <div className="mb-16">
-        <p className="text-[10px] tracking-[0.2em] font-bold text-[#00d37e] uppercase mb-4">
+        <p className="text-[10px] tracking-[0.2em] font-bold text-[#b8895a] uppercase mb-4">
           Get In Touch
         </p>
         <h2 className="text-4xl md:text-6xl font-black text-white italic uppercase leading-tight">
@@ -27,7 +27,7 @@ export default function Contact() {
                 href="mailto:rex@kleandash.com" 
                 className="flex items-center gap-4 group"
               >
-                <div className="p-3 bg-white/5 border border-white/10 rounded-xl text-[#00d37e] group-hover:scale-110 transition-transform">
+                <div className="p-3 bg-white/5 border border-white/10 rounded-xl text-[#b8895a] group-hover:scale-110 transition-transform">
                   <EnvelopeSimple size={20} weight="duotone" />
                 </div>
                 <div>
@@ -37,7 +37,7 @@ export default function Contact() {
               </a>
 
               <div className="flex items-center gap-4">
-                <div className="p-3 bg-white/5 border border-white/10 rounded-xl text-[#00d37e]">
+                <div className="p-3 bg-white/5 border border-white/10 rounded-xl text-[#b8895a]">
                   <MapPin size={20} weight="duotone" />
                 </div>
                 <div>
@@ -47,7 +47,7 @@ export default function Contact() {
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="p-3 bg-white/5 border border-white/10 rounded-xl text-[#00d37e]">
+                <div className="p-3 bg-white/5 border border-white/10 rounded-xl text-[#b8895a]">
                   <Globe size={20} weight="duotone" />
                 </div>
                 <div>

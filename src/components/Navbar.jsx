@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi"; // Professional menu icons
 import { Link } from "react-router-dom";
-
+import { useNavigate } from 'react-router-dom';
 function Navbar() {
+   const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
-
+  
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
@@ -13,26 +14,29 @@ function Navbar() {
         {/* Logo */}
         <div className="text-2xl font-bold">
           <Link to="/" onClick={() => setIsOpen(false)}>
-            Klean<span className="text-emerald-300">Dash.com</span>
+           <h1>Klean <span className="text-[#b8895a]"> <em>Dash.com</em></span></h1>
           </Link>
         </div>
 
         {/* Desktop Links - Hidden on Mobile */}
         <ul className="hidden md:flex gap-9 items-center">
-          <li className="hover:text-emerald-300 transition-colors">
+          <li className="hover:text-var(--kraft)-300 transition-colors">
             <Link to="/">Home</Link>
           </li>
-          <li className="hover:text-emerald-300 transition-colors">
+          <li className="hover:text-var(--kraft)-300 transition-colors">
             <Link to="/about">About</Link>
           </li>
-          <li className="hover:text-emerald-300 transition-colors">
+          <li className="hover:text-var(--kraft)-300 transition-colors">
             <Link to="/work">Work</Link>
           </li>
-          <li className="hover:text-emerald-300 transition-colors">
+          <li className="hover:text-var(--kraft)-300 transition-colors">
             <Link to="/Contact">Contact</Link>
           </li>
           <li>
-            <button className="bg-emerald-300 text-[#303e49] font-bold py-2 px-5 rounded-md hover:bg-emerald-400 transition-all">
+            <button
+              className="bg-[#b8895a] text-black font-bold py-2 px-5 rounded-md hover:bg-orange-200 transition-all"
+              onClick={() => navigate('/contact')}
+            >
               Get Started
             </button>
           </li>
@@ -40,7 +44,7 @@ function Navbar() {
 
         {/* Hamburger Icon - Visible on Mobile Only */}
         <div
-          className="md:hidden text-3xl cursor-pointer text-emerald-300"
+          className="md:hidden text-3xl cursor-pointer text-orange-200"
           onClick={toggleMenu}
         >
           {isOpen ? <HiX /> : <HiMenu />}
@@ -77,7 +81,10 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <button className="w-full bg-emerald-300 text-black font-bold py-3 rounded-md">
+              <button
+                className="w-full bg-var(--kraft)-300 text-black font-bold py-3 rounded-md"
+              
+              >
                 Get Started
               </button>
             </li>
