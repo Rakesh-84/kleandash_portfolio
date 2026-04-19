@@ -39,7 +39,7 @@ function Hero() {
           View My Work
         </button>
         <button 
-          className="border border-[#b8895a] text-[#b8895a] font-bold px-6 py-3 rounded hover:bg-[#b8895a] transition-colors"
+          className="border border-[#b8895a] text-[#b8895a] font-bold px-6 py-3 rounded hover:bg-[#b8895a] hover:text-black transition-colors"
           onClick={() => navigate('/contact')}
         >
           Contact Me
