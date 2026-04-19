@@ -23,7 +23,7 @@ function Hero() {
             <br /> connected to your real data, without the need for a full-time
             developer.
           </p>
-          <p> — Ex-Nestlé Marketing Officer · 9 years in business data.</p>
+          <p className="lg:ps-33"> — Ex-Nestlé Marketing Officer · 9 years in business data.</p>
         </div>
         <div className="hidden lg:block bg-[#0f0c08] mt-12 ">
           {" "}
@@ -31,7 +31,7 @@ function Hero() {
         </div>
       </div>
 
-      <div className="flex flex-col sm:flex-row gap-4 px-6 mt-36 lg:px-20 lg:py-20">
+      <div className="flex flex-col sm:flex-row gap-4 px-6 mt-36 lg:px-20 ">
         <button
           className="bg-[#b8895a] text-black font-bold px-6 py-3 rounded hover:bg-black hover:text-white border border-[#b8895a] transition-colors"
           onClick={() => navigate('/work')}
