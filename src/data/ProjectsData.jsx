@@ -1,17 +1,18 @@
 import SaaSPreview from '../components/Project';
 import Screenshot from "../assets/Screenshot 2026-03-30 113327.png";
 import Saasscreenshot from "../assets/Screenshot 2026-04-17 194532.png"
+import ndf from "../assets/ndf.png"
 export const Projects = [
   {
     id: "01",
-    category: "SAAS ANALYTICS",
-    title: "SaaS Revenue & Growth Dashboard",
+    category: "LIVE CLIENT PROJECT",
+    title: "NDF BD CTG - FULL COMMUNITY PLATFORM",
     description:
-      "A unified morning dashboard for SaaS founders — MRR, churn, signups and active users in one view. Connected to Supabase.",
-    stack: "React • Recharts • JSON",
+       "End-to-end platform for Bangladesh's largest debate community — public site, admin dashboard, member portal, blog, events calendar, gallery and a searchable hall of records. Security-hardened, optimized to a perfect Lighthouse score, and live in production today.",
+    stack: "React • Supabase • Cloudflare Workers",
     delivery: "5 days",
-    link: "https://biz-dash-pi.vercel.app/",
-    preview: <SaaSPreview screenshot={Screenshot} />,
+    link: "https://www.ndfbdctg.org/",
+    preview: <SaaSPreview screenshot={ndf} />,
     
   },
   {

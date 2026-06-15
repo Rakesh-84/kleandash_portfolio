@@ -48,7 +48,7 @@ export default function Ready() {
         <h2 className="text-4xl md:text-6xl font-black text-white italic leading-tight uppercase">
           READY FOR A <br />
           <span className="text-transparent bg-clip-text bg-linear-to-r from-[#d8dddb] to-white">
-            CLEANER DASHBOARD?
+            CLEANER Web Solution?
           </span>
         </h2>
         <p className="text-gray-400 mt-6 max-w-md mx-auto text-sm leading-relaxed">

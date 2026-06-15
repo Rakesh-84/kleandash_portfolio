@@ -17,7 +17,8 @@ export default function Work() {
             <div className="flex-1 p-8 md:p-12 flex flex-col justify-between">
               <div>
                 <p className="text-[10px] font-bold text-[#00d37e] mb-4 tracking-widest">{project.category}</p>
-                <h3 className="text-3xl font-black text-white mb-6 uppercase italic leading-tight">
+                <h3 className="text-3xl font-black text-white mb-6 uppercase italic  "
+                >
                   {project.title}
                 </h3>
                 <p className="text-gray-400 text-sm mb-8 leading-relaxed max-w-md">

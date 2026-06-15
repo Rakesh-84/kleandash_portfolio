@@ -61,7 +61,8 @@ function Help() {
           </h2>
           <div className="text-gray-400 text-lg space-y-6 max-w-xl">
             <p>
-              I’m Rex — 9 years reading business dashboards at Nestlé. Now I
+              I’m Rakesh Das (Rex) <br />
+               9 years reading business dashboards at Nestlé. Now I
               build them.As a React developer specializing in dashboard UIs, I
               help SaaS founders and marketing agencies turn raw data into
               interfaces their teams actually use every day.
