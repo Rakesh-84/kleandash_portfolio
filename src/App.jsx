@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import Service from "./components/Service";
 
 // Page Imports
-import Ready from "./components/Ready";
+
 import Workflow from "./components/Workflow";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -25,7 +25,7 @@ function App() {
                 <Help />
                 <Service />
                 <Workflow />
-                <Ready />
+               
               </>
             }
           />
