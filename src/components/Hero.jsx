@@ -23,7 +23,7 @@ function Hero() {
           </p>
           <p className="lg:ps-33"> — Ex-Nestlé Marketing Officer · 9 years in business operations.</p>
         </div>
-        <div className="hidden lg:block lg:w-4xl bg-[#0f0c08] mt-12 ">
+        <div className="hidden lg:block lg:w-full  lg:object-cover bg-[#0f0c08] mt-12 ">
          
           <img src={hero} alt="Hero" />
         </div>
